@@ -20,4 +20,6 @@ class Post extends Model
     {
         return 'slug';
     }
+
+    protected $guarded = ['is_active'];
 }
